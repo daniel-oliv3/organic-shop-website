@@ -159,18 +159,41 @@ body {
 
 
 /* REUSED STYLE */
+.container {
+  padding-inline: 15px;
+}
 
 
 
 
 
+/* ======= Header Section/Seção do cabeçalho ======= */
+.navbar,
+.input-wrapper {
+  display: none;
+}
+
+.top-bar {
+  background-color: var(--gunmetal-2);
+  color: var(--emerald);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+  text-align: center;
+  padding-block: 10px;
+}
 
 
+.logo {
+  color: var(--gunmetal-2);
+  font-family: var(--ff-playfair-display);
+  font-size: 3rem;
+}
 
 
-
-
-
+.logo span {
+  display: inline-block;
+  color: var(--emerald);
+}
 
 
 
