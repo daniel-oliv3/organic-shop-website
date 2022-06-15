@@ -195,6 +195,15 @@ body {
   color: var(--emerald);
 }
 
+.nav-wrapper .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+  padding-inline: 10%;
+  padding-block: 20px;
+}
 
 
 
